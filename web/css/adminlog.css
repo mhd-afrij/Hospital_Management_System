@@ -1,0 +1,132 @@
+/* General page styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f9fc;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  background-color: #023047;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+.logo-right {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 60px;
+}
+
+header h1 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+header p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+header h2 {
+  font-size: 22px;
+  margin-top: 5px;
+}
+
+/* Form container */
+.form-container {
+  display: flex;
+  max-width: 960px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+/* Left side form */
+.form-left {
+  flex: 1;
+  padding: 40px;
+}
+
+.form-left h2 {
+  text-align: center;
+  color: #023047;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="submit"].btn-login {
+  background-color: #023047;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+input[type="submit"].btn-login:hover {
+  background-color: #035e7b;
+}
+
+/* Forgot password link */
+.forgot-btn {
+  display: block;
+  margin-top: 15px;
+  text-align: center;
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.forgot-btn:hover {
+  text-decoration: underline;
+}
+
+/* Right decorative image */
+.form-image {
+  flex: 1;
+  background-image: url("../image/Admi.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Footer */
+footer {
+  background-color: #001f2d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+#contact h2 {
+  margin-top: 0;
+}
+
+#contact p {
+  margin: 5px 0;
+}

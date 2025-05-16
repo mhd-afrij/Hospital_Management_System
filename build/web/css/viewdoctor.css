@@ -1,0 +1,123 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 2, 2025, 9:59:37 PM
+    Author     : 
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('../image/logo9.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  animation: bodyFadeIn 1s ease-out;
+}
+@keyframes bodyFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+header {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 64, 128, 0.8) url('../image/2.jpg') no-repeat center center;
+  background-size: cover;
+  max-height: 300px;
+  overflow: hidden;
+  animation: slideDown 1s ease-out;
+}
+header h1, header p {
+  color: #fff;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
+.logo-right {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #4CAF50;
+  padding: 0.5rem;
+}
+nav a {
+  background: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+nav a:hover {
+  background: #0059b3;
+}
+main.container {
+  background: rgba(255,255,255,0.95);
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 8px;
+  max-width: 960px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  animation: slideIn 0.6s ease-out;
+}
+@keyframes slideIn {
+  from { transform: translateY(20px); opacity: 0; }
+  to   { transform: translateY(0); opacity: 1; }
+}
+h2 {
+  margin-bottom: 1rem;
+  color: #004080;
+}
+.doctor-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+}
+.doctor-table th, .doctor-table td {
+  border: 1px solid #ccc;
+  padding: 0.8rem;
+  text-align: left;
+}
+.doctor-table th {
+  background: #388e3c;
+  color: #fff;
+}
+.doctor-table tr:nth-child(even) {
+  background: #f7f7f7;
+}
+.doctor-table td a {
+  color: #004080;
+  text-decoration: none;
+}
+.doctor-table td a:hover {
+  text-decoration: underline;
+}
+footer {
+  background: rgba(0,64,128,0.8);
+  text-align: center;
+  padding: 1rem;
+  color: #fff;
+  font-size: 0.9rem;
+  margin-top: auto;
+}
