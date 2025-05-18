@@ -33,10 +33,10 @@
 %>
    <thead>
       <tr>
-          <th>Name</th><br>
-   <th>Specialization</th><br>
-   <th>Fee</th><br>
-   <th>Action</th><br>
+          <th>Name</th>
+   <th>Specialization</th>
+   <th>Fee</th>
+   <th>Action</th>
       </tr>
     </thead>
     <tbody>

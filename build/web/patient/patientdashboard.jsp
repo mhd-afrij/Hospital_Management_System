@@ -34,7 +34,7 @@
 
 <nav>
     <a href="${pageContext.request.contextPath}/view-doctors" class="btn">View Doctors</a>
-        <a href="<%= request.getContextPath() %>/appointment-details" class="btn">View Appointments</a>
+        <a href="<%= request.getContextPath() %>/patient/appointment-details.jsp" class="btn">View Appointments</a>
         <a href="<%=request.getContextPath()%>/view-invoices" class="btn">View Invoices</a>
         <a href="<%=request.getContextPath()%>/view-test-reports" class="btn">Report</a>
         <a href="<%=request.getContextPath()%>/logout" class="btn">Logout</a>
